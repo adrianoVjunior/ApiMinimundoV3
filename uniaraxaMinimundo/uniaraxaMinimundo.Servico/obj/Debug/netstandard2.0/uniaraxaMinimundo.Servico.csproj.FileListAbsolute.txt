@@ -1,0 +1,4 @@
+C:\Users\adriano.junior\Desktop\uniaraxaMinimundo\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
+C:\Users\adriano.junior\Desktop\uniaraxaMinimundo\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csprojAssemblyReference.cache
+C:\Users\adriano.junior\Desktop\uniaraxaMinimundo\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfoInputs.cache
+C:\Users\adriano.junior\Desktop\uniaraxaMinimundo\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfo.cs
