@@ -32,10 +32,10 @@ namespace uniaraxaMinimundoWebApi.Controllers
             if (userToken != null && !String.IsNullOrWhiteSpace(userToken.usuario))
             {
 
-                var usuarioBase = service.Select(userToken.userTokenID);
+                var usuarioBase = service.Select(userToken.userToken_ID);
                 credenciaisValidas = (usuarioBase != null &&
                     userToken.usuario == usuarioBase.usuario &&
-                    userToken.usuario == usuarioBase.senha);
+                    userToken.senha == usuarioBase.senha);
             }
 
             if (credenciaisValidas)

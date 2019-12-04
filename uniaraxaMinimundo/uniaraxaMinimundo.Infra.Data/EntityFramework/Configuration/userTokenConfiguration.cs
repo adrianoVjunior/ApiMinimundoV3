@@ -12,7 +12,7 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Configuration
         public void Configure(EntityTypeBuilder<userToken> builder)
         {
             builder.ToTable("USERTOKEN_037073");
-            builder.HasKey(f => f.userTokenID);
+            builder.HasKey(f => f.userToken_ID);
             builder.Property(f => f.usuario);
             builder.Property(f => f.senha);
         }

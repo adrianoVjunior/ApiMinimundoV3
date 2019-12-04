@@ -6,6 +6,6 @@ namespace uniaraxaMinimundo.Dominio.Entidades
 {
     public class BaseEntity
     {
-        public int userCreated { get; set; }
+        //public int userCreated { get; set; }
     }
 }

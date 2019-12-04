@@ -9,7 +9,6 @@ C:\Users\adriano.junior\Desktop\uniaraxaMinimundo\uniaraxaMinimundo\uniaraxaMini
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.deps.json
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
-C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.csprojAssemblyReference.cache
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.csproj.CoreCompileInputs.cache
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfoInputs.cache
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfo.cs

@@ -15,3 +15,7 @@ C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\De
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Dominio.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Dominio.pdb
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csproj.CopyComplete
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Infra.Data.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Servico.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Servico.pdb
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Infra.Data.pdb

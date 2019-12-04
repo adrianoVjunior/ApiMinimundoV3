@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "1b5f7e4ef6e85a9694ef372cbcda25668a3ff847"
+    "signature": "6141c36f3098fa77739833ff373c294c47654f55"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "uniaraxaMinimundo.Dominio/1.0.0": {
         "dependencies": {
           "FluentValidation": "8.5.1",
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.2.0",
           "NETStandard.Library": "2.0.3",
           "System.ComponentModel.Annotations": "4.6.0"
         },
@@ -25,6 +26,14 @@
           "lib/netstandard2.0/FluentValidation.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.5.1.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
           }
         }
       },
@@ -56,6 +65,13 @@
       "sha512": "sha512-GoygZcMkCcve3UHZM3ITSzgrPdfjPSl5mRSQKL6BlV8aI0yi+shIAju7k6QirPESNGsKzn+r4ne0JmqsAGG/PA==",
       "path": "fluentvalidation/8.5.1",
       "hashPath": "fluentvalidation.8.5.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GXmMD8/vuTLPLvKzKEPz/4vapC5e0cwx1tUVd83ePRyWF9CCrn/pg4/1I+tGkQqFLPvi3nlI2QtPtC6MQN8Nww==",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.2.0",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.2.2.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
