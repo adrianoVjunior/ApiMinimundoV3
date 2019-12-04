@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="userTokenService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.5.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\uniaraxaMinimundo.Dominio\uniaraxaMinimundo.Dominio.csproj" />
+    <ProjectReference Include="..\uniaraxaMinimundo.Infra.Data\uniaraxaMinimundo.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>

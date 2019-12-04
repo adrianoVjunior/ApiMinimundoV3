@@ -11,15 +11,15 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico.uniaraxaMinimundo;
-
+using uniaraxaMinimundo.Servico.Base;
 
 namespace uniaraxaMinimundoWebApi.Controllers
 {
     [Route("api/login")]
-    public class LoginController : Controller
+    public class LoginController : ControllerBase
     {
 
-        private readonly IUserTokenService _userTokenService;
+        private ServiceBase<userToken> service = new ServiceBase<userToken>();
 
         [AllowAnonymous]
         [HttpPost]
@@ -32,7 +32,7 @@ namespace uniaraxaMinimundoWebApi.Controllers
             if (userToken != null && !String.IsNullOrWhiteSpace(userToken.usuario))
             {
 
-                var usuarioBase = _userTokenService.Select(userToken.userTokenID);
+                var usuarioBase = service.Select(userToken.userTokenID);
                 credenciaisValidas = (usuarioBase != null &&
                     userToken.usuario == usuarioBase.usuario &&
                     userToken.usuario == usuarioBase.senha);

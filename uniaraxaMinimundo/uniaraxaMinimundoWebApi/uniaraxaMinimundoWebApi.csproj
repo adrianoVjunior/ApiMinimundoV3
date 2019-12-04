@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\uniaraxaMinimundo.Dominio\uniaraxaMinimundo.Dominio.csproj" />
+    <ProjectReference Include="..\uniaraxaMinimundo.Servico\uniaraxaMinimundo.Servico.csproj" />
   </ItemGroup>
 
 </Project>

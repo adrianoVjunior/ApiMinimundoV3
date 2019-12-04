@@ -2,51 +2,47 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio.uniaraxaMinimundo;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico;
+using uniaraxaMinimundo.Infra.Data.Repository.Base;
 
 namespace uniaraxaMinimundo.Servico.Base
 {
-    public class ServiceBase<TEntity> : IDisposable, IServiceBase<TEntity> where TEntity : class
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : BaseEntity
     {
-        private readonly IRespositoryBase<TEntity> _repositoryBase;
-        private IUserTokenRepository userTokenRepository;
 
-        public ServiceBase(IUserTokenRepository userTokenRepository)
-        {
-            this.userTokenRepository = userTokenRepository;
-        }
+        private RepositoryBase<TEntity> repository = new RepositoryBase<TEntity>();
+
+        //private readonly IRespositoryBase<TEntity> _repositoryBase;
+        //private IUserTokenRepository userTokenRepository;
+
 
         public void Delete(TEntity obj)
         {
-            _repositoryBase.Delete(obj);
-        }
-
-        public void Dispose()
-        {
-            _repositoryBase.Dispose();
+            repository.Delete(obj);
         }
 
         public void Insert(TEntity obj)
         {
-            _repositoryBase.Insert(obj);
+            repository.Insert(obj);
         }
 
         public TEntity Select(int id)
         {
-            return _repositoryBase.Select(id);
+            return repository.Select(id);
         }
 
         public IList<TEntity> SelectALL()
         {
-            return _repositoryBase.SelectALL();
+            return repository.SelectALL();
         }
 
         public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
         {
             Validate(obj, Activator.CreateInstance<Valida>());
-            _repositoryBase.Update(obj);
+            repository.Update(obj);
         }
 
         private void Validate(TEntity obj, AbstractValidator<TEntity> validator)

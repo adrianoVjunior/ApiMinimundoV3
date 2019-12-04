@@ -4,20 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio;
 using uniaraxaMinimundo.Infra.Data.EntityFramework.Context;
 
 namespace uniaraxaMinimundo.Infra.Data.Repository.Base
 {
-    public class RepositoryBase<TEntity> : IDisposable, IRespositoryBase<TEntity> where TEntity : class
+    public class RepositoryBase<TEntity> : IRespositoryBase<TEntity> where TEntity : BaseEntity
     {
-        protected uniaraxaMinimundoContext Db = new uniaraxaMinimundoContext(new DbContextOptions<uniaraxaMinimundoContext>
-        { });
+        private myContext context = new myContext();
 
         public void Delete(TEntity obj)
         {
-            Db.Set<TEntity>().Remove(obj);
-            Db.SaveChanges();
+            context.Set<TEntity>().Remove(obj);
+            context.SaveChanges();
         }
 
         public void Dispose()
@@ -27,24 +27,24 @@ namespace uniaraxaMinimundo.Infra.Data.Repository.Base
 
         public void Insert(TEntity obj)
         {
-            Db.Set<TEntity>().Add(obj);
-            Db.SaveChanges();
+            context.Set<TEntity>().Add(obj);
+            context.SaveChanges();
         }
 
         public TEntity Select(int id)
         {
-            return Db.Set<TEntity>().Find(id);
+            return context.Set<TEntity>().Find(id);
         }
 
         public IList<TEntity> SelectALL()
         {
-            return Db.Set<TEntity>().ToList();
+            return context.Set<TEntity>().ToList();
         }
 
         public void Update(TEntity obj)
         {
-            Db.Entry(obj).State = EntityState.Modified;
-            Db.SaveChanges();
+            context.Entry(obj).State = EntityState.Modified;
+            context.SaveChanges();
         }
     }
 }

@@ -12,6 +12,5 @@ namespace uniaraxaMinimundo.Dominio.Interfaces.Servico
         void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>;
         void Insert(TEntity obj);
         void Delete(TEntity id);
-        void Dispose();
     }
 }
