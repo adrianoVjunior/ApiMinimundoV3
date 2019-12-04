@@ -1,0 +1,17 @@
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.deps.json
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.runtimeconfig.json
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.runtimeconfig.dev.json
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csprojAssemblyReference.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csproj.CoreCompileInputs.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cs
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfoInputs.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfo.cs
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorTargetAssemblyInfo.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.pdb
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.pdb
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Dominio.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Dominio.pdb
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csproj.CopyComplete

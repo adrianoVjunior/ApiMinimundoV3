@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29509.3
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentação", "0 - Apresentação", "{A22902C6-752F-4483-8899-23FCC508E36C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Dominio", "1 - Dominio", "{80E56491-2F59-4CDF-8324-0332F71D427B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Servico", "2 - Servico", "{4709CADA-968E-4AA1-A586-ED28009A0F3B}"
@@ -15,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2 - CrossCuting", "3.2 - CrossCuting", "{4738744C-37B6-4D26-BB95-AFE1E0C2706B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniaraxaMinimundoAPI", "uniaraxaMinimundoAPI\uniaraxaMinimundoAPI.csproj", "{96BA3959-789B-436F-9ECD-FC5127854F3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniaraxaMinimundo.Dominio", "uniaraxaMinimundo.Dominio\uniaraxaMinimundo.Dominio.csproj", "{C74372F4-24C0-4443-9CA1-67F8C0285EA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniaraxaMinimundo.Dominio", "uniaraxaMinimundo.Dominio\uniaraxaMinimundo.Dominio.csproj", "{C74372F4-24C0-4443-9CA1-67F8C0285EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniaraxaMinimundo.Servico", "uniaraxaMinimundo.Servico\uniaraxaMinimundo.Servico.csproj", "{5E88C765-F816-4557-8716-BCEA2DC81516}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniaraxaMinimundo.Servico", "uniaraxaMinimundo.Servico\uniaraxaMinimundo.Servico.csproj", "{5E88C765-F816-4557-8716-BCEA2DC81516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniaraxaMinimundo.Infra.Data", "uniaraxaMinimundo.Infra.Data\uniaraxaMinimundo.Infra.Data.csproj", "{44AD99E9-CEC3-456E-8335-6D8DD473FD0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniaraxaMinimundo.Infra.Data", "uniaraxaMinimundo.Infra.Data\uniaraxaMinimundo.Infra.Data.csproj", "{44AD99E9-CEC3-456E-8335-6D8DD473FD0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniaraxaMinimundo.Data.CrossCuting", "uniaraxaMinimundo.Data.CrossCuting\uniaraxaMinimundo.Data.CrossCuting.csproj", "{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uniaraxaMinimundo.Data.CrossCuting", "uniaraxaMinimundo.Data.CrossCuting\uniaraxaMinimundo.Data.CrossCuting.csproj", "{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentação", "0 - Apresentação", "{775DDE08-F03D-4C25-82DE-A01CA6BC7505}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "uniaraxaMinimundoWebApi", "uniaraxaMinimundoWebApi\uniaraxaMinimundoWebApi.csproj", "{1659A926-831D-4178-90B7-9A32D00ECA40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{96BA3959-789B-436F-9ECD-FC5127854F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96BA3959-789B-436F-9ECD-FC5127854F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96BA3959-789B-436F-9ECD-FC5127854F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96BA3959-789B-436F-9ECD-FC5127854F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C74372F4-24C0-4443-9CA1-67F8C0285EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C74372F4-24C0-4443-9CA1-67F8C0285EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C74372F4-24C0-4443-9CA1-67F8C0285EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1659A926-831D-4178-90B7-9A32D00ECA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1659A926-831D-4178-90B7-9A32D00ECA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1659A926-831D-4178-90B7-9A32D00ECA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1659A926-831D-4178-90B7-9A32D00ECA40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,11 +58,11 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E22F7BFE-3F24-42B0-A838-0FF06CED95CD} = {AE77923C-ADFB-4860-941B-F9D09F7FD150}
 		{4738744C-37B6-4D26-BB95-AFE1E0C2706B} = {AE77923C-ADFB-4860-941B-F9D09F7FD150}
-		{96BA3959-789B-436F-9ECD-FC5127854F3D} = {A22902C6-752F-4483-8899-23FCC508E36C}
 		{C74372F4-24C0-4443-9CA1-67F8C0285EA2} = {80E56491-2F59-4CDF-8324-0332F71D427B}
 		{5E88C765-F816-4557-8716-BCEA2DC81516} = {4709CADA-968E-4AA1-A586-ED28009A0F3B}
 		{44AD99E9-CEC3-456E-8335-6D8DD473FD0C} = {E22F7BFE-3F24-42B0-A838-0FF06CED95CD}
 		{DD0CB5B9-0A8E-4BF9-96B6-D22A1C38FF29} = {4738744C-37B6-4D26-BB95-AFE1E0C2706B}
+		{1659A926-831D-4178-90B7-9A32D00ECA40} = {775DDE08-F03D-4C25-82DE-A01CA6BC7505}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4AD3EB2-F86E-48CA-A2A0-7E02A1B5DC72}
