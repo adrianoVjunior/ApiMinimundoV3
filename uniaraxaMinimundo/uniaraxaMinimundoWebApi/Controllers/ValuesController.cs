@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace uniaraxaMinimundoWebApi.Controllers
 {
@@ -12,11 +13,20 @@ namespace uniaraxaMinimundoWebApi.Controllers
     [Authorize("Bearer")]
     public class ValuesController : ControllerBase
     {
+        public List<String> lista = new List<string>();
+        public ValuesController()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                lista.Add("Teste " + i + 1);
+            }
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return lista;
         }
 
         // GET api/values/5
@@ -28,8 +38,10 @@ namespace uniaraxaMinimundoWebApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public void Post([FromBody] string value)
+        public ActionResult<IEnumerable<String>> Post([FromQuery] string value)
         {
+            lista.Add(value);
+            return lista;
         }
 
         // PUT api/values/5

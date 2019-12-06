@@ -7,7 +7,7 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
     public class myContext : DbContext
     {
 
-        public DbSet<userToken> userToken{ get; set; }
+        public DbSet<Login> userToken{ get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,7 +18,7 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<userToken>(new userTokenConfiguration().Configure);
+            modelBuilder.Entity<Login>(new LoginConfiguration().Configure);
         }
     }
 }

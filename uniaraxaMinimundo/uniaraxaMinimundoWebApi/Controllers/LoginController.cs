@@ -19,32 +19,32 @@ namespace uniaraxaMinimundoWebApi.Controllers
     public class LoginController : ControllerBase
     {
 
-        private ServiceBase<userToken> service = new ServiceBase<userToken>();
+        private ServiceBase<Login> service = new ServiceBase<Login>();
 
         [AllowAnonymous]
         [HttpPost]
-        public object post([FromBody]userToken userToken,
+        public object post([FromBody]Login login,
             [FromServices]SigningConfigurations signingConfigurations,
             [FromServices]TokenConfigurations tokenConfigurations)
 
         {
             bool credenciaisValidas = false;
-            if (userToken != null && !String.IsNullOrWhiteSpace(userToken.usuario))
+            if (login != null && !String.IsNullOrWhiteSpace(login.usuario))
             {
 
-                var usuarioBase = service.Select(userToken.userToken_ID);
+                var usuarioBase = service.Select(login.userToken_ID);
                 credenciaisValidas = (usuarioBase != null &&
-                    userToken.usuario == usuarioBase.usuario &&
-                    userToken.senha == usuarioBase.senha);
+                    login.usuario == usuarioBase.usuario &&
+                    login.senha == usuarioBase.senha);
             }
 
             if (credenciaisValidas)
             {
                 ClaimsIdentity identity = new ClaimsIdentity(
-                    new GenericIdentity(userToken.usuario, "Login"),
+                    new GenericIdentity(login.usuario, "Login"),
                     new[] {
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
-                        new Claim(JwtRegisteredClaimNames.UniqueName, userToken.usuario)
+                        new Claim(JwtRegisteredClaimNames.UniqueName, login.usuario)
                     }
                 );
 

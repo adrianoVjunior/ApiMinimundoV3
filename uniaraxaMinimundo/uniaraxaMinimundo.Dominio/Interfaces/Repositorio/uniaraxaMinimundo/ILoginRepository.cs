@@ -2,7 +2,7 @@
 
 namespace uniaraxaMinimundo.Dominio.Interfaces.Repositorio.uniaraxaMinimundo
 {
-    public interface IUserTokenRepository:IRespositoryBase<userToken>
+    public interface ILoginRepository:IRespositoryBase<Login>
     {
     }
 }

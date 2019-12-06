@@ -6,9 +6,9 @@ using uniaraxaMinimundo.Dominio.Entidades;
 
 namespace uniaraxaMinimundo.Servico.Validators
 {
-    public class userTokenValidator:AbstractValidator<userToken>
+    public class LoginValidator:AbstractValidator<Login>
     {
-        public userTokenValidator()
+        public LoginValidator()
         {
             RuleFor(f => f)
                 .NotNull()
@@ -23,7 +23,8 @@ namespace uniaraxaMinimundo.Servico.Validators
 
             RuleFor(f => f.senha)
                 .NotEmpty().WithMessage("É necessário informar a senha.")
-                .NotNull().WithMessage("É necessário informar a senha.");
+                .NotNull().WithMessage("É necessário informar a senha.")
+                .MinimumLength(8).WithMessage("É necessário no mínimo 8 caracteres");
         }
     }
 }

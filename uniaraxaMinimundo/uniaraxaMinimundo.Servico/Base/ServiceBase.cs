@@ -34,22 +34,38 @@ namespace uniaraxaMinimundo.Servico.Base
             return repository.Select(id);
         }
 
+        public TEntity Select(string key)
+        {
+            return repository.Select(key);
+        }
+
         public IList<TEntity> SelectALL()
         {
-            return repository.SelectALL();
+            throw new NotImplementedException();
         }
 
         public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
         {
-            Validate(obj, Activator.CreateInstance<Valida>());
-            repository.Update(obj);
-        }
-
-        private void Validate(TEntity obj, AbstractValidator<TEntity> validator)
-        {
-            if (obj == null)
-                throw new Exception("Registros não detectados");
-            validator.ValidateAndThrow(obj);
+            throw new NotImplementedException();
         }
     }
+
+        //public IList<TEntity> SelectALL()
+        //{
+        //    return repository.SelectALL();
+        //}
+
+        //public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
+        //{
+        //    Validate(obj, Activator.CreateInstance<Valida>());
+        //    repository.Update(obj);
+        //}
+
+        //private void Validate(TEntity obj, AbstractValidator<TEntity> validator)
+        //{
+        //    if (obj == null)
+        //        throw new Exception("Registros não detectados");
+        //    validator.ValidateAndThrow(obj);
+        //}
+    
 }

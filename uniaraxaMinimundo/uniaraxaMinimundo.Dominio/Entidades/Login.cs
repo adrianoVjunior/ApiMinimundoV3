@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace uniaraxaMinimundo.Dominio.Entidades
 {
-    public class userToken : BaseEntity
+    public class Login : BaseEntity
     {
         public int userToken_ID { get; set; }
         public String usuario { get; set; }

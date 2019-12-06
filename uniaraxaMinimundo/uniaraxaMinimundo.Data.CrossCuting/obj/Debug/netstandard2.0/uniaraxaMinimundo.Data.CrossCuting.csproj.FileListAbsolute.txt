@@ -1,0 +1,9 @@
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.deps.json
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.pdb
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.csprojAssemblyReference.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.csproj.CoreCompileInputs.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.AssemblyInfoInputs.cache
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.AssemblyInfo.cs
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.dll
+C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.pdb

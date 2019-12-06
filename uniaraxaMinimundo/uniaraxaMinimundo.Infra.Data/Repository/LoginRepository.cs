@@ -7,7 +7,7 @@ using uniaraxaMinimundo.Infra.Data.Repository.Base;
 
 namespace uniaraxaMinimundo.Infra.Data.Repository
 {
-    public class userTokenRepository: RepositoryBase<userToken>
+    public class LoginRepository: RepositoryBase<Login>
     {
     }
 }
