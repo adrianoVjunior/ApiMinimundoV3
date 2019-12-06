@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj": {}
+    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj": {
+    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj",
+        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj",
         "projectName": "uniaraxaMinimundo.Data.CrossCuting",
-        "projectPath": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj",
+        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\uniaraxaMinimundo.Data.CrossCuting.csproj",
         "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\obj\\",
+        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Data.CrossCuting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

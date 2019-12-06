@@ -14,3 +14,14 @@ C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\o
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.csproj.CopyComplete
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.deps.json
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.dll
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.csprojAssemblyReference.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.AssemblyInfoInputs.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.AssemblyInfo.cs
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.csproj.CopyComplete
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.dll
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Infra.Data\obj\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.pdb

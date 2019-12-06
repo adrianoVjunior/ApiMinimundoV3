@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {}
+    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
         "projectName": "uniaraxaMinimundo.Dominio",
-        "projectPath": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
         "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adriano.junior\\Desktop\\uniaraxaMinimundo\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
+        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,6 +44,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[8.5.1, )"
+            },
+            "Microsoft.AspNetCore.Cryptography.Internal": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

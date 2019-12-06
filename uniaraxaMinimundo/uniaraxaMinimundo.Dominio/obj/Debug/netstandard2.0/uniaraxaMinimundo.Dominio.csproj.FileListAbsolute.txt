@@ -14,3 +14,10 @@ C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfo.cs
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.deps.json
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfoInputs.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfo.cs
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
