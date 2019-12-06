@@ -12,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico.uniaraxaMinimundo;
 using uniaraxaMinimundo.Servico.Base;
+using static uniaraxaMinimundo.Dominio.Interfaces.Models;
 
 namespace uniaraxaMinimundoWebApi.Controllers
 {
@@ -19,7 +20,7 @@ namespace uniaraxaMinimundoWebApi.Controllers
     public class LoginController : ControllerBase
     {
 
-        private ServiceBase<Login> service = new ServiceBase<Login>();
+        private ServiceBase<Usuario> service = new ServiceBase<Usuario>();
 
         [AllowAnonymous]
         [HttpPost]

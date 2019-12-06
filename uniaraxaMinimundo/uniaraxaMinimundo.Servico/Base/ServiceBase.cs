@@ -6,17 +6,14 @@ using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio.uniaraxaMinimundo;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico;
-using uniaraxaMinimundo.Infra.Data.Repository.Base;
+using uniaraxaMinimundo.Infra.Data.RepositoryBase.Base;
 
 namespace uniaraxaMinimundo.Servico.Base
 {
-    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : BaseEntity
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity :class
     {
 
         private RepositoryBase<TEntity> repository = new RepositoryBase<TEntity>();
-
-        //private readonly IRespositoryBase<TEntity> _repositoryBase;
-        //private IUserTokenRepository userTokenRepository;
 
 
         public void Delete(TEntity obj)
@@ -39,33 +36,17 @@ namespace uniaraxaMinimundo.Servico.Base
             return repository.Select(key);
         }
 
-        public IList<TEntity> SelectALL()
-        {
-            throw new NotImplementedException();
-        }
-
         public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
         {
-            throw new NotImplementedException();
+            Validador(obj, Activator.CreateInstance<Valida>());
+            repository.Update(obj);
         }
-    }
 
-        //public IList<TEntity> SelectALL()
-        //{
-        //    return repository.SelectALL();
-        //}
-
-        //public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
-        //{
-        //    Validate(obj, Activator.CreateInstance<Valida>());
-        //    repository.Update(obj);
-        //}
-
-        //private void Validate(TEntity obj, AbstractValidator<TEntity> validator)
-        //{
-        //    if (obj == null)
-        //        throw new Exception("Registros não detectados");
-        //    validator.ValidateAndThrow(obj);
-        //}
-    
+        private void Validador(TEntity obj, AbstractValidator<TEntity> validador)
+        {
+            if (obj == null)
+                throw new Exception("Registro nulo");
+            validador.ValidateAndThrow(obj);
+        }
+    }    
 }

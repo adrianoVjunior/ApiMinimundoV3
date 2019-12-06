@@ -8,9 +8,9 @@ using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Repositorio;
 using uniaraxaMinimundo.Infra.Data.EntityFramework.Context;
 
-namespace uniaraxaMinimundo.Infra.Data.Repository.Base
+namespace uniaraxaMinimundo.Infra.Data.RepositoryBase.Base
 {
-    public class RepositoryBase<TEntity> : IRespositoryBase<TEntity> where TEntity : BaseEntity
+    public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         private myContext context = new myContext();
 
