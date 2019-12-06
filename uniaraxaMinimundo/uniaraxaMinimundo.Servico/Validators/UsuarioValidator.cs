@@ -37,9 +37,9 @@ namespace uniaraxaMinimundo.Servico.Validators
                 .NotEmpty().WithMessage("É necessário informar o Email.")
                 .NotNull().WithMessage("É necessário informar o Email.");
 
-            RuleFor(f => f.Usuario)
-                .NotEmpty().WithMessage("É necessário informar o Usuario.")
-                .NotNull().WithMessage("É necessário informar u Usuario.");
+            RuleFor(f => f.login)
+                .NotEmpty().WithMessage("É necessário informar o login.")
+                .NotNull().WithMessage("É necessário informar o login.");
 
             RuleFor(f => f.Senha)
                 .NotEmpty().WithMessage("É necessário informar a Senha.")

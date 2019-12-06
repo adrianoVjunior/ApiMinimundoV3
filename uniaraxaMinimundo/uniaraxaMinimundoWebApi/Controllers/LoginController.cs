@@ -30,22 +30,22 @@ namespace uniaraxaMinimundoWebApi.Controllers
 
         {
             bool credenciaisValidas = false;
-            if (login != null && !String.IsNullOrWhiteSpace(login.usuario))
+            if (login != null && !String.IsNullOrWhiteSpace(login.login))
             {
 
-                var usuarioBase = service.Select(login.userToken_ID);
+                var usuarioBase = service.Select(login.login);
                 credenciaisValidas = (usuarioBase != null &&
-                    login.usuario == usuarioBase.usuario &&
-                    login.senha == usuarioBase.senha);
+                    login.login == usuarioBase.login &&
+                    login.Senha == usuarioBase.Senha);
             }
 
             if (credenciaisValidas)
             {
                 ClaimsIdentity identity = new ClaimsIdentity(
-                    new GenericIdentity(login.usuario, "Login"),
+                    new GenericIdentity(login.login, "Login"),
                     new[] {
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString("N")),
-                        new Claim(JwtRegisteredClaimNames.UniqueName, login.usuario)
+                        new Claim(JwtRegisteredClaimNames.UniqueName, login.login)
                     }
                 );
 

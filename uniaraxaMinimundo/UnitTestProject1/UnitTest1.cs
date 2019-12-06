@@ -10,7 +10,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Login login = new Login();
+            Usuario login = new Login();
             login.usuario = "abc";
             login.senha = "123";
 
