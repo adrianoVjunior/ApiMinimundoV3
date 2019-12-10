@@ -12,6 +12,7 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Data Source=sql4.porta80.com.br;Initial Catalog=lojasparati;user id=lojasparati;password=5117556");
+            optionsBuilder.EnableSensitiveDataLogging(false);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

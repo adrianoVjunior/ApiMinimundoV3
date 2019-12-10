@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 using uniaraxaMinimundo.Dominio.Entidades;
 
@@ -13,9 +14,12 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Configuration
         {
             builder.ToTable("USUARIO_037073");
             builder.HasKey(f => f.UsuarioID);
+            builder.Property(f => f.UsuarioID)
+                   .HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+
             builder.HasKey(f => f.Nome);
             builder.Property(f => f.DataNascimento);
-            builder.Property(f => f.CPF);            
+            builder.Property(f => f.CPF);
             builder.Property(f => f.login);
             builder.Property(f => f.Senha);
             builder.Property(f => f.Email);

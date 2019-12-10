@@ -19,6 +19,11 @@ C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\De
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Servico.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Servico.pdb
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Infra.Data.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cs
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfoInputs.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfo.cs
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csprojAssemblyReference.cache
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\appsettings.json
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
@@ -33,11 +38,6 @@ D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMini
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Dominio.pdb
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Servico.pdb
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\bin\Debug\netcoreapp2.2\uniaraxaMinimundo.Infra.Data.pdb
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csprojAssemblyReference.cache
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cache
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorAssemblyInfo.cs
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfoInputs.cache
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.AssemblyInfo.cs
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.RazorTargetAssemblyInfo.cache
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.csproj.CopyComplete
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundoWebApi\obj\Debug\netcoreapp2.2\uniaraxaMinimundoWebApi.dll

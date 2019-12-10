@@ -41,7 +41,7 @@ namespace uniaraxaMinimundo.Infra.Data.RepositoryBase.Base
             return context.Set<TEntity>().Find(key);
         }
 
-        public IList<TEntity> SelectALL()
+        public IList<TEntity> SelectAll()
         {
             return context.Set<TEntity>().ToList();
         }

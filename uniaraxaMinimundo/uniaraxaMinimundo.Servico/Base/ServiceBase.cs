@@ -10,7 +10,7 @@ using uniaraxaMinimundo.Infra.Data.RepositoryBase.Base;
 
 namespace uniaraxaMinimundo.Servico.Base
 {
-    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity :class
+    public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : class
     {
 
         private RepositoryBase<TEntity> repository = new RepositoryBase<TEntity>();
@@ -21,8 +21,9 @@ namespace uniaraxaMinimundo.Servico.Base
             repository.Delete(obj);
         }
 
-        public void Insert(TEntity obj)
+        public void Insert<V>(TEntity obj) where V : AbstractValidator<TEntity>
         {
+            Validate(obj, Activator.CreateInstance<V>());
             repository.Insert(obj);
         }
 
@@ -36,17 +37,23 @@ namespace uniaraxaMinimundo.Servico.Base
             return repository.Select(key);
         }
 
-        public void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>
+        public IEnumerable<TEntity> SelectAll()
         {
-            Validador(obj, Activator.CreateInstance<Valida>());
+            return repository.SelectAll();
+        }
+
+        public void Update<V>(TEntity obj) where V : AbstractValidator<TEntity>
+        {
+            Validate(obj, Activator.CreateInstance<V>());
             repository.Update(obj);
         }
 
-        private void Validador(TEntity obj, AbstractValidator<TEntity> validador)
+        public void Validate(TEntity obj, AbstractValidator<TEntity> validator)
         {
             if (obj == null)
-                throw new Exception("Registro nulo");
-            validador.ValidateAndThrow(obj);
+                throw new Exception("Registros não detectados!");
+
+            validator.ValidateAndThrow(obj);
         }
-    }    
+    }
 }

@@ -17,10 +17,6 @@ namespace uniaraxaMinimundo.Servico.Validators
                     throw new ArgumentNullException("Can't found the object.");
                 });
 
-            //RuleFor(f => f.UsuarioID)
-            //    .NotEmpty().WithMessage("É necessário informar o usuário.")
-            //    .NotNull().WithMessage("É necessário informar o usuário.");
-
             RuleFor(f => f.Nome)
                 .NotEmpty().WithMessage("É necessário informar o Nome.")
                 .NotNull().WithMessage("É necessário informar o Nome.");
@@ -32,6 +28,7 @@ namespace uniaraxaMinimundo.Servico.Validators
             RuleFor(f => f.CPF)
                 .NotEmpty().WithMessage("É necessário informar o CPF.")
                 .NotNull().WithMessage("É necessário informar o CPF.");
+                
 
             RuleFor(f => f.Email)
                 .NotEmpty().WithMessage("É necessário informar o Email.")

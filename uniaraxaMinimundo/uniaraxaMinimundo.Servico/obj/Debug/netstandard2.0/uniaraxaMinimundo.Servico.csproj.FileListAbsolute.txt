@@ -16,6 +16,9 @@ C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csproj.CopyComplete
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
 C:\git\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csprojAssemblyReference.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfoInputs.cache
+D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfo.cs
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.deps.json
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb
@@ -23,9 +26,6 @@ D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMini
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.pdb
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csprojAssemblyReference.cache
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfoInputs.cache
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfo.cs
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csproj.CopyComplete
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb

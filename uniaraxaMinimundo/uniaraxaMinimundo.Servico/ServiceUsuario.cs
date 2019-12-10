@@ -1,6 +1,6 @@
-﻿using System;
+﻿using FluentValidation;
+using System;
 using System.Collections.Generic;
-using System.Text;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico.uniaraxaMinimundo;
 using uniaraxaMinimundo.Servico.Base;
@@ -8,7 +8,7 @@ using uniaraxaMinimundo.Servico.Validators;
 
 namespace uniaraxaMinimundo.Servico
 {
-    public class ServiceUsuario : IUsuarioService<Usuario>
+    public class ServiceUsuario : IUsuarioService
     {
         private ServiceBase<Usuario> Base = new ServiceBase<Usuario>();
 
@@ -22,9 +22,15 @@ namespace uniaraxaMinimundo.Servico
             throw new NotImplementedException();
         }
 
-        public void Insert(Usuario obj)
+        public void Insert<V>(Usuario obj) where V : AbstractValidator<Usuario>
         {
-            Base.Insert(obj);
+            Base.Validate(obj, Activator.CreateInstance<V>());
+            var result = Base.Select(obj.Nome);
+
+            if (result == null)
+                Base.Insert<UsuarioValidator>(obj);
+            else
+                throw new ArgumentException("Usuário já cadastrado");
         }
 
         public Usuario Select(int id)
@@ -36,11 +42,20 @@ namespace uniaraxaMinimundo.Servico
         {
             return Base.Select(key);
         }
-
-        public void Update(Usuario obj)
+        public IEnumerable<Usuario> SelectAll()
         {
-            //Base.Update(obj,UsuarioValidator);
-            throw new NotImplementedException();
+            return Base.SelectAll();
+        }
+
+        public void Update<V>(Usuario obj) where V : AbstractValidator<Usuario>
+        {
+            Base.Validate(obj, Activator.CreateInstance<V>());
+            var result = Base.Select(obj.Nome);
+
+            if (result != null)
+                Base.Update<UsuarioValidator>(obj);
+            else
+                throw new ArgumentException("Usuário não encontrado");
         }
     }
 }

@@ -5,12 +5,13 @@ using System.Text;
 
 namespace uniaraxaMinimundo.Dominio.Interfaces.Servico
 {
-    public interface IServiceBase<TEntity> where TEntity :class
+    public interface IServiceBase<TEntity> where TEntity : class
     {
         TEntity Select(int id);
         TEntity Select(String key);
-        void Update<Valida>(TEntity obj) where Valida : AbstractValidator<TEntity>;
-        void Insert(TEntity obj);
+        IEnumerable<TEntity> SelectAll();
+        void Update<V>(TEntity obj) where V : AbstractValidator<TEntity>;
+        void Insert<V>(TEntity obj) where V : AbstractValidator<TEntity>;
         void Delete(TEntity id);
     }
 }
