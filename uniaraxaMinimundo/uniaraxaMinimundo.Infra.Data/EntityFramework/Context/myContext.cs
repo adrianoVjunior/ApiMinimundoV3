@@ -10,6 +10,8 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
         public DbSet<Usuario> usuarios { get; set; }
         public DbSet<Empresa> empresa { get; set; }
         public DbSet<Funcionario> funcionario { get; set; }
+        public DbSet<Avaliador> avaliador { get; set; }
+        public DbSet<Campanha> campanha { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -23,6 +25,8 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
             modelBuilder.Entity<Usuario>(new UsuarioConfiguration().Configure);
             modelBuilder.Entity<Empresa>(new EmpresaConfiguration().Configure);
             modelBuilder.Entity<Funcionario>(new FuncionarioConfiguration().Configure);
+            modelBuilder.Entity<Avaliador>(new AvaliadorConfiguration().Configure);
+            modelBuilder.Entity<Campanha>(new CampanhaConfiguration().Configure);
         }
     }
 }

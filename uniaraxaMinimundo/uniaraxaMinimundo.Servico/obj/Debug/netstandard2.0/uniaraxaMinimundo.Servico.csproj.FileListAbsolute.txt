@@ -29,3 +29,16 @@ D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMini
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csproj.CopyComplete
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.deps.json
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\bin\Debug\netstandard2.0\uniaraxaMinimundo.Infra.Data.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csprojAssemblyReference.cache
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfoInputs.cache
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.AssemblyInfo.cs
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.csproj.CopyComplete
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Servico\obj\Debug\netstandard2.0\uniaraxaMinimundo.Servico.pdb

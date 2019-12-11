@@ -10,7 +10,7 @@ using uniaraxaMinimundo.Servico.Validators;
 
 namespace uniaraxaMinimundo.Servico
 {
-    public class FuncionarioService : IFuncionarioService
+    public class ServiceFuncionario : IFuncionarioService
     {
         private ServiceBase<Funcionario> Base = new ServiceBase<Funcionario>();
 

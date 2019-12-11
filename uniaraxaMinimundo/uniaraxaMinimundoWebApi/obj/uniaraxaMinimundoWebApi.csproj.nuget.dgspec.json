@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj": {}
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "projectUniqueName": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
         "projectName": "uniaraxaMinimundo.Dominio",
-        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
-        "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
+        "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adriano.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,20 +74,20 @@
         }
       }
     },
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj": {
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj",
         "projectName": "uniaraxaMinimundo.Infra.Data",
-        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\obj\\",
+        "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adriano.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +100,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
-                "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
+              "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+                "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
               }
             }
           }
@@ -148,20 +148,20 @@
         }
       }
     },
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj": {
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj",
+        "projectUniqueName": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj",
         "projectName": "uniaraxaMinimundo.Servico",
-        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj",
-        "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\obj\\",
+        "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adriano.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -174,11 +174,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
-                "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
+              "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+                "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
               },
-              "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj": {
-                "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj"
+              "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj": {
+                "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Infra.Data\\uniaraxaMinimundo.Infra.Data.csproj"
               }
             }
           }
@@ -217,20 +217,20 @@
         }
       }
     },
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj": {
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj",
+        "projectUniqueName": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj",
         "projectName": "uniaraxaMinimundoWebApi",
-        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj",
-        "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\obj\\",
+        "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\uniaraxaMinimundoWebApi.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundoWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adriano.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -243,11 +243,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
-                "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
+              "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+                "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj"
               },
-              "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj": {
-                "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj"
+              "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj": {
+                "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Servico\\uniaraxaMinimundo.Servico.csproj"
               }
             }
           }
