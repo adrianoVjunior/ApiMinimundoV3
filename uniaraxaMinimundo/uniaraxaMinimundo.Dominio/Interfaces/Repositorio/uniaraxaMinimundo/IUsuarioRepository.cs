@@ -5,7 +5,7 @@ using uniaraxaMinimundo.Dominio.Entidades;
 
 namespace uniaraxaMinimundo.Dominio.Interfaces.Repositorio.uniaraxaMinimundo
 {
-    public interface IUsuarioRepository: IRepositoryBase<Usuario>
+    public interface IUsuarioRepository : IRepositoryBase<Usuario>
     {
     }
 }

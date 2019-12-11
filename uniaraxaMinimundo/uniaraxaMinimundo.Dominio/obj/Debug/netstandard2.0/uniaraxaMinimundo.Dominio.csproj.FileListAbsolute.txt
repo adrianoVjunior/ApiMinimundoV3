@@ -21,4 +21,3 @@ D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMini
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.AssemblyInfo.cs
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.pdb
-D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Dominio\obj\Debug\netstandard2.0\uniaraxaMinimundo.Dominio.csprojAssemblyReference.cache

@@ -5,12 +5,13 @@ using System.Text;
 using FluentValidation;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico;
+using uniaraxaMinimundo.Dominio.Interfaces.Servico.uniaraxaMinimundo;
 using uniaraxaMinimundo.Servico.Base;
 using uniaraxaMinimundo.Servico.Validators;
 
 namespace uniaraxaMinimundo.Servico
 {
-    public class ServiceEmpresa : IServiceBase<Empresa>
+    public class ServiceEmpresa : IEmpresaService
     {
 
         private ServiceBase<Empresa> Base = new ServiceBase<Empresa>();

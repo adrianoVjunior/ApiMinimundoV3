@@ -5,7 +5,7 @@ using uniaraxaMinimundo.Dominio.Entidades;
 
 namespace uniaraxaMinimundo.Dominio.Interfaces.Repositorio.uniaraxaMinimundo
 {
-    public interface IEmpresaRepository:IRepositoryBase<Empresa>
+    public interface IEmpresaRepository : IRepositoryBase<Empresa>
     {
     }
 }
