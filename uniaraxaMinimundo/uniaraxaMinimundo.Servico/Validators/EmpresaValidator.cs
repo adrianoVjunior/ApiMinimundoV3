@@ -6,7 +6,7 @@ using uniaraxaMinimundo.Dominio.Entidades;
 
 namespace uniaraxaMinimundo.Servico.Validators
 {
-    class EmpresaValidator : AbstractValidator<Empresa>
+    public class EmpresaValidator : AbstractValidator<Empresa>
     {
         public EmpresaValidator()
         {
