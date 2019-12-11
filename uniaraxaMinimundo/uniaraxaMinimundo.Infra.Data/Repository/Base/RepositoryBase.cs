@@ -12,7 +12,7 @@ namespace uniaraxaMinimundo.Infra.Data.RepositoryBase.Base
 {
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
-        private myContext context = new myContext();
+        protected myContext context = new myContext();
 
         public void Delete(TEntity obj)
         {

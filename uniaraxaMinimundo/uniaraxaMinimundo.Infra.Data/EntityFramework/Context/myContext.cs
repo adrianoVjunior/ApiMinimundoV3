@@ -18,7 +18,6 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
             modelBuilder.Entity<Usuario>(new UsuarioConfiguration().Configure);
         }
     }

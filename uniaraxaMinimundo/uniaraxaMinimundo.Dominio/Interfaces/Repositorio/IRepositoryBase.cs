@@ -8,7 +8,7 @@ namespace uniaraxaMinimundo.Dominio.Interfaces.Repositorio
     {
         TEntity Select(int id);
         TEntity Select(string key);
-        //IList<TEntity> SelectALL();
+        IList<TEntity> SelectAll();
         void Update(TEntity obj);
         void Insert(TEntity obj);
         void Delete(TEntity obj);

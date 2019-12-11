@@ -33,10 +33,8 @@ namespace uniaraxaMinimundoWebApi.Controllers
             if (login != null && !String.IsNullOrWhiteSpace(login.login))
             {
 
-                var usuarioBase = service.Select(login.login);
-                credenciaisValidas = (usuarioBase != null &&
-                    login.login == usuarioBase.login &&
-                    login.Senha == usuarioBase.Senha);
+                var usuarioBase = service.SelectAll().Where(f => (f.login == login.login && f.Senha == login.Senha)).FirstOrDefault();
+                credenciaisValidas = usuarioBase != null ? true : false;
             }
 
             if (credenciaisValidas)

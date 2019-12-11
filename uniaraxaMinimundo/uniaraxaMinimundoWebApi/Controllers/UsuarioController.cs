@@ -30,7 +30,7 @@ namespace uniaraxaMinimundoWebApi.Controllers
             try
             {
                 service.Insert<UsuarioValidator>(usuario);
-                return Ok();
+                return Ok("Usuário cadastrado com sucesso");
             }
             catch (ArgumentNullException ex)
             {
@@ -42,11 +42,13 @@ namespace uniaraxaMinimundoWebApi.Controllers
             }
         }
 
+        //problema
         [HttpPut]
         public IActionResult Put([FromBody] Usuario usuario)
         {
             try
             {
+                usuario.UsuarioID = service.SelectAll().Where(f => (f.CPF == usuario.CPF)).FirstOrDefault().UsuarioID;
                 service.Update<UsuarioValidator>(usuario);
                 return Ok();
             }

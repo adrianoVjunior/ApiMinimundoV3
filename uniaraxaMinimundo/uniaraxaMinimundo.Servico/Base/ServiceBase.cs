@@ -13,7 +13,7 @@ namespace uniaraxaMinimundo.Servico.Base
     public class ServiceBase<TEntity> : IServiceBase<TEntity> where TEntity : class
     {
 
-        private RepositoryBase<TEntity> repository = new RepositoryBase<TEntity>();
+        protected RepositoryBase<TEntity> repository = new RepositoryBase<TEntity>();
 
 
         public void Delete(TEntity obj)

@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Dominio.Interfaces.Servico.uniaraxaMinimundo;
 using uniaraxaMinimundo.Servico.Base;
@@ -25,7 +26,7 @@ namespace uniaraxaMinimundo.Servico
         public void Insert<V>(Usuario obj) where V : AbstractValidator<Usuario>
         {
             Base.Validate(obj, Activator.CreateInstance<V>());
-            var result = Base.Select(obj.Nome);
+            var result = Base.SelectAll().Where(f => f.login == obj.login).FirstOrDefault();
 
             if (result == null)
                 Base.Insert<UsuarioValidator>(obj);
@@ -42,6 +43,7 @@ namespace uniaraxaMinimundo.Servico
         {
             return Base.Select(key);
         }
+
         public IEnumerable<Usuario> SelectAll()
         {
             return Base.SelectAll();
@@ -50,8 +52,7 @@ namespace uniaraxaMinimundo.Servico
         public void Update<V>(Usuario obj) where V : AbstractValidator<Usuario>
         {
             Base.Validate(obj, Activator.CreateInstance<V>());
-            var result = Base.Select(obj.Nome);
-
+            var result = Base.SelectAll().Where(f => f.CPF == obj.CPF).FirstOrDefault();
             if (result != null)
                 Base.Update<UsuarioValidator>(obj);
             else
