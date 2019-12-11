@@ -19,6 +19,7 @@ namespace uniaraxaMinimundo.Infra.Data.EntityFramework.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Usuario>(new UsuarioConfiguration().Configure);
+            modelBuilder.Entity<Empresa>(new EmpresaConfiguration().Configure);
         }
     }
 }
