@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Servico;
+using uniaraxaMinimundo.Servico.Validators;
 
 namespace uniaraxaMinimundoWebApi.Controllers
 {
@@ -51,7 +52,7 @@ namespace uniaraxaMinimundoWebApi.Controllers
                     .Where(f => (f.AvaliadorID == campanha.AvaliadorID && f.EmpresaID == campanha.EmpresaID))
                     .FirstOrDefault().CampanhaID;
 
-                service.Update<CampanhaValidator>(avaliador);
+                service.Update<CampanhaValidator>(campanha);
                 return Ok();
             }
             catch (ArgumentNullException ex)
