@@ -14,3 +14,10 @@ D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMini
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.AssemblyInfo.cs
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.dll
 D:\GITHUB_ZEMA\cmder\GIT\FACULDADE\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.deps.json
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\bin\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.pdb
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.AssemblyInfoInputs.cache
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.AssemblyInfo.cs
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.dll
+D:\Aplicativos\cmder\GIT\ApiMinimundoV3\uniaraxaMinimundo\uniaraxaMinimundo.Data.CrossCuting\obj\Debug\netstandard2.0\uniaraxaMinimundo.Data.CrossCuting.pdb

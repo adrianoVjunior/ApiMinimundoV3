@@ -13,23 +13,23 @@ namespace uniaraxaMinimundoWebApi.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize("Bearer")]
-    public class FuncionarioController : Controller
+    public class AvaliadorController : Controller
     {
-        private ServiceFuncionario service = new ServiceFuncionario();
+        private ServiceAvaliador service = new ServiceAvaliador();
 
 
         [HttpGet]
-        public IEnumerable<Funcionario> Get()
+        public IEnumerable<Avaliador> Get()
         {
             return service.SelectAll();
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Funcionario funcionario)
+        public IActionResult Post([FromBody] Avaliador avaliador)
         {
             try
             {
-                service.Insert<FuncionarioValidator>(funcionario);
+                service.Insert<AvaliadorValidator>(avaliador);
                 return Ok("Funcionario cadastrado com sucesso");
             }
             catch (ArgumentNullException ex)
@@ -44,15 +44,15 @@ namespace uniaraxaMinimundoWebApi.Controllers
 
         //problema: Não conseguimos realizar a join entre as tabelas utilizando o EF
         [HttpPut]
-        public IActionResult Put([FromBody] Funcionario funcionario)
+        public IActionResult Put([FromBody] Avaliador avaliador)
         {
             try
             {
-                funcionario.FuncionarioID = service.SelectAll()
-                    .Where(f => (f.UsuarioID == funcionario.UsuarioID && f.EmpresaID == funcionario.EmpresaID))
-                    .FirstOrDefault().FuncionarioID;
+                avaliador.AvaliadorID = service.SelectAll()
+                    .Where(f => (f.UsuarioID == avaliador.UsuarioID))
+                    .FirstOrDefault().AvaliadorID;
 
-                service.Update<FuncionarioValidator>(funcionario);
+                service.Update<AvaliadorValidator>(avaliador);
                 return Ok();
             }
             catch (ArgumentNullException ex)

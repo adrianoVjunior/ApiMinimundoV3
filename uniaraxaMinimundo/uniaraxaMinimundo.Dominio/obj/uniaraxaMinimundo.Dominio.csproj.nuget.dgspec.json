@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {}
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {}
   },
   "projects": {
-    "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
+    "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "projectUniqueName": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
         "projectName": "uniaraxaMinimundo.Dominio",
-        "projectPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
-        "packagesPath": "C:\\Users\\adriano.junior\\.nuget\\packages\\",
-        "outputPath": "D:\\GITHUB_ZEMA\\cmder\\GIT\\FACULDADE\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
+        "projectPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\uniaraxaMinimundo.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "D:\\Aplicativos\\cmder\\GIT\\ApiMinimundoV3\\uniaraxaMinimundo\\uniaraxaMinimundo.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\adriano.junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

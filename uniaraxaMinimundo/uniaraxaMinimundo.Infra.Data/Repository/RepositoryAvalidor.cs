@@ -6,7 +6,7 @@ using uniaraxaMinimundo.Infra.Data.RepositoryBase.Base;
 
 namespace uniaraxaMinimundo.Infra.Data.Repository
 {
-    public class RepositoryFuncionario:RepositoryBase<Funcionario>
+    public class RepositoryAvalidor:RepositoryBase<Avaliador>
     {
     }
 }

@@ -6,30 +6,29 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using uniaraxaMinimundo.Dominio.Entidades;
 using uniaraxaMinimundo.Servico;
-using uniaraxaMinimundo.Servico.Validators;
 
 namespace uniaraxaMinimundoWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     [Authorize("Bearer")]
-    public class FuncionarioController : Controller
+    public class CampanhaController : Controller
     {
-        private ServiceFuncionario service = new ServiceFuncionario();
+        private ServiceCampanha service = new ServiceCampanha();
 
 
         [HttpGet]
-        public IEnumerable<Funcionario> Get()
+        public IEnumerable<Campanha> Get()
         {
             return service.SelectAll();
         }
 
         [HttpPost]
-        public IActionResult Post([FromBody] Funcionario funcionario)
+        public IActionResult Post([FromBody] Campanha campanha)
         {
             try
             {
-                service.Insert<FuncionarioValidator>(funcionario);
+                service.Insert<CampanhaValidator>(campanha);
                 return Ok("Funcionario cadastrado com sucesso");
             }
             catch (ArgumentNullException ex)
@@ -44,15 +43,15 @@ namespace uniaraxaMinimundoWebApi.Controllers
 
         //problema: Não conseguimos realizar a join entre as tabelas utilizando o EF
         [HttpPut]
-        public IActionResult Put([FromBody] Funcionario funcionario)
+        public IActionResult Put([FromBody] Campanha campanha)
         {
             try
             {
-                funcionario.FuncionarioID = service.SelectAll()
-                    .Where(f => (f.UsuarioID == funcionario.UsuarioID && f.EmpresaID == funcionario.EmpresaID))
-                    .FirstOrDefault().FuncionarioID;
+                campanha.CampanhaID = service.SelectAll()
+                    .Where(f => (f.AvaliadorID == campanha.AvaliadorID && f.EmpresaID == campanha.EmpresaID))
+                    .FirstOrDefault().CampanhaID;
 
-                service.Update<FuncionarioValidator>(funcionario);
+                service.Update<CampanhaValidator>(avaliador);
                 return Ok();
             }
             catch (ArgumentNullException ex)
