@@ -1,9 +1,0 @@
- --SqlConnection con = new SqlConnection("Data Source=sql4.porta80.com.br;Initial Catalog=lojasparati;user id=lojasparati;password=5117556");
-
-CREATE TABLE USERTOKEN_037073 (
-	USERTOKEN_ID INT PRIMARY KEY IDENTITY(1,1),
-	USUARIO VARCHAR(100),
-	SENHA VARCHAR(100)
-)
-SELECT * FROM USERTOKEN_037073
-INSERT INTO USERTOKEN_037073 VALUES('ADRIANO','SENHA')
