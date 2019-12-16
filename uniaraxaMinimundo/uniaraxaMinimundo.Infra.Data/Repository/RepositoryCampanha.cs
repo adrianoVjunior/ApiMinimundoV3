@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 using uniaraxaMinimundo.Dominio.Entidades;
-using uniaraxaMinimundo.Dominio.Interfaces.Repositorio;
+using uniaraxaMinimundo.Infra.Data.RepositoryBase.Base;
 
 namespace uniaraxaMinimundo.Infra.Data.Repository
 {
-    public class RepositoryCampanha : IRepositoryBase<Campanha>
+    public class RepositoryCampanha : RepositoryBase<Campanha>
     {
     }
 }
